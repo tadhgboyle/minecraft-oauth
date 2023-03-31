@@ -1,6 +1,6 @@
 <?php
 
-namespace Aberdeener\MicrosoftMinecraftOauthProfile;
+namespace Aberdeener\MinecraftOauthProfile;
 
 use Ramsey\Uuid\Uuid;
 use Ramsey\Uuid\UuidInterface;

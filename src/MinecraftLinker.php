@@ -1,11 +1,11 @@
 <?php
 
-namespace Aberdeener\MicrosoftMinecraftOauthProfile;
+namespace Aberdeener\MinecraftOauthProfile;
 
 use GuzzleHttp\Client as HttpClient;
 use RuntimeException;
 
-class MicrosoftMinecraftLinker {
+class MinecraftLinker {
 
     private HttpClient $client;
     private bool $throwException;
