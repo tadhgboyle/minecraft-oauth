@@ -1,5 +1,5 @@
 {
-    "name": "aberdeener/minecraft-oauth-profile",
+    "name": "aberdeener/minecraft-oauth",
     "description": "Provides easy layer to get a Minecraft profile from a Microsoft Live OAuth session",
     "require": {
         "guzzlehttp/guzzle": "^7.5",
@@ -8,7 +8,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Aberdeener\\MinecraftOauthProfile\\": "src/"
+            "Aberdeener\\MinecraftOauth\\": "src/"
         }
     },
     "authors": [

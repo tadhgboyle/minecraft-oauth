@@ -7,7 +7,7 @@ $client_id = '<Azure OAuth Client ID>';
 $client_secret = '<Azure OAuth Client Secret>';
 $redirect_uri = '<URL to this file>';
 
-$profile = (new \Aberdeener\MinecraftOauthProfile\MinecraftLinker())->fetchMinecraftProfile(
+$profile = (new \Aberdeener\MinecraftOauth\MinecraftLinker())->fetchMinecraftProfile(
     $client_id,
     $client_secret,
     $_GET['code'],

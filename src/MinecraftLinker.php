@@ -1,6 +1,6 @@
 <?php
 
-namespace Aberdeener\MinecraftOauthProfile;
+namespace Aberdeener\MinecraftOauth;
 
 use GuzzleHttp\Client as HttpClient;
 use RuntimeException;
@@ -137,7 +137,6 @@ class MinecraftLinker {
     private function checkGameOwnership(string $minecraft_access_token): bool
     {
         $response = $this->client->get('https://api.minecraftservices.com/entitlements/mcstore', [
-            'http_errors' => false,
             'headers' => [
                 'Authorization' => 'Bearer ' . $minecraft_access_token,
             ],
