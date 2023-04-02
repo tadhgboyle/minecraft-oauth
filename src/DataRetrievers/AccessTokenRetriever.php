@@ -16,7 +16,6 @@ class AccessTokenRetriever extends DataRetriever
             'access_token',
             'refresh_token',
             'user_id',
-            'foci',
         ];
     }
 
